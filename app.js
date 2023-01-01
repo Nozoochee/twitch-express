@@ -1,11 +1,15 @@
 import * as dotenv from 'dotenv';
 dotenv.config();
 import express from 'express';
-
+import cors from 'cors';
 import { getStreams, generateAuthToken, validateAuthToken } from './twitch.js';
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+console.log('Starting...');
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send(`You're on the wrong page`);
