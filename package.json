@@ -1,0 +1,17 @@
+{
+  "name": "twitch-express",
+  "version": "1.0.0",
+  "description": "Backend using Twitch's official API and your own API key",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nozoochee",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module"
+}
