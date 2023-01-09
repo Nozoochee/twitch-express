@@ -1,3 +1,6 @@
+# About
+This is a middleman for my [frontend](https://www.nozoochee.com/twitchLangSearch) to fetch data from [Twitch.tv](https://twitch.tv/), with as little hassle as possible. This express app stores all the necessary credentials and keeps the access token valid.
+
 # Motivation
 I use livestreams as a means of getting in touch with languages I want to learn, or want to keep my knowledge of.
 
